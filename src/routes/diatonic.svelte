@@ -230,6 +230,11 @@
     <div class="banner">This app is only available on a desktop!</div>
   </div>
 
+  <div class="information">Presione y sostenga la tecla: <kbd>Q</kbd> para <strong>empujar</strong> el fuelle; por defecto es
+    <strong>halar</strong></div>
+
+  <p></p>
+
   <div class="layout">
     <div class="keyboard-side">
       <div class="desktop-only accordion-layout">
@@ -251,6 +256,9 @@
     </div>
 
     <div class="information-side">
+      <img src="assets/estrellita_en_do.png" height="100px" alt="Estrellita en Do" />
+    </div>
+    <!--div class="information-side">
       <div class="information">
         <header class="header">
           <h1 class="title">Diatonic Accordion</h1>
@@ -316,9 +324,9 @@
           {/each}
         </div>
       </div>
-    </div>
+    </div-->
 
-    <div class="bass-side">
+    <!--div class="bass-side">
       <div class="desktop-only accordion-layout">
         {#each bassRows as row}
           <div class="row {row}">
@@ -334,6 +342,6 @@
           </div>
         {/each}
       </div>
-    </div>
+    </div-->
   </div>
 </main>

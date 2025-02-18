@@ -1,5 +1,5 @@
 <script>
-  import Router from './routes/index.svelte'
+  import Router from './routes/diatonic.svelte'
 </script>
 
 <div class="window">
